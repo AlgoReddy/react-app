@@ -11,10 +11,11 @@ body {
 } */
 .parent {
   background-color: #111;
-  height: 100vh;
+  min-height: 100vh;
   gap: 30px;
   display: flex;
   align-items: center;
+flex-wrap: wrap;
 
 }
 .card {
@@ -39,8 +40,9 @@ body {
   width: 40px;
   border-radius: 50%;
   border: 1px solid #dadada;
-  padding: 7px;
+  padding: 9px;
   padding-top: 11px;
+object-fit: cover;
 }
 .top button {
   display: flex;
